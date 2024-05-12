@@ -1,0 +1,14 @@
+.cover {
+  width: 100vw;
+  
+  
+}
+
+.cover > .identity {
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  
+ 
+}
