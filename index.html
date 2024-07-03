@@ -1,52 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-    />
-    <link rel="stylesheet" href="../common/reset.css" />
-    <link rel="stylesheet" href="css/root.css" />
-    <link rel="stylesheet" href="css/header.css" />
-    <link rel="stylesheet" href="css/hero.css" />
-    <link rel="stylesheet" href="css/weare.css" />
-    <link rel="stylesheet" href="css/cover.css">
-  </head>
-  <body>
-    <header>
-      <nav>
-        <a href="#">YEONWOODA</a>
-        <ul>
-          <li>HOME</li>
-          <li>WE ARE</li>
-          <li>WORK</li>
-          <li>BLOG</li>
-          <li>CIBTACT US</li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <figure class="hero">
-        <img src="image/plum.jpg" alt="" />
-      </figure>
-      <section class="weare">
-        <div class="weare--jumbotron">
-          <h1>WE ARE</h1>
-          <p>conanakajgadgag</p>
-        </div>
-        <div class="cover">
-          <div class="identity">
-            <i class="fa-solid fa-house"></i>
-            <p>HOME</p>
-            <p>haodaiahagddg</p>
-          </div>
-        </div>
-      </section>
 
-    </main>
-    <footer></footer>
-  </body>
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>YEONWOODA</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+	<link rel="stylesheet" href="../common/reset.css">
+	<link rel="stylesheet" href="css/root.css">
+	<link rel="stylesheet" href="css/header.css">
+	<link rel="stylesheet" href="css/main_bg.css">
+	<link rel="stylesheet" href="css/work.css">
+	<link rel="stylesheet" href="css/blog.css">
+	<link rel="stylesheet" href="css/contact.css">
+</head>
+<body>
+	<header>
+		<h1><a href="#">YEONWOODA</a></h1>
+		<!--링크 이동할땐 a태그 사용, 원페이지에서 해당 섹션으로 넘길땐 href="#아이디명"-->
+		<nav>
+			<ul>
+				<li><a href="#">HOME</a></li>
+				<li><a href="#sec01">IT'S ME</a></li>
+				<li><a href="#sec02">PHOTO</a></li>
+				<li><a href="#sec03">SNS</a></li>
+				<li><a href="#sec04">CONTACT US</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<div class="main_bg"></div>
+		<section id="sec01" class="weare container">
+			<div class="top_box">
+				<h2 class="main_tit">IT'S ME</h2>
+				<p>
+					전라도와 경상도를 가로지르는 섬진강 줄기 따라 화개장터엔 아랫마을 하동 사람 윗마을 구례 사람 닷새마다 어우러져 장을 펼치네 구경 한 번 와 보세요 
+					보기엔 그냥 시골 장터지만 있어야 할 건 다 있구요 없을 건 없답니다 화개장터 광양에선 삐걱삐걱 나룻배 타고 산청에선 부릉부릉 버스를 타고
+					사투리 잡담에다 입씨름 흥정이 오손도손 왁자지껄 장을 펼치네 구경 한 번 와 보세요 오시면 모두 모두 이웃 사촌 고운 정 미운 정 주고 받는
+					경상도 전라도의 화개장터
+				</p>
+			</div>
+			<ul class="btm_list">
+				<li>
+					<i class="fa-solid fa-sliders fa-2x"></i>
+					<strong>MBTI</strong>
+					<p>자유로운 영혼</p>
+					<P>ENFP</P>
+				</li>
+				
+				<li>
+					<i class="fa-solid fa-camera fa-2x"></i>
+					<strong>사진찍기</strong>
+				</li>
+				<li>
+					<i class="fa-solid fa-music fa-2x"></i>
+					<strong>노래듣기</strong>
+					<p>S.E.S - 달리기</p>
+				</li>
+			</ul>
+		</section>
+		<section id="sec02" class="work ">
+			<h2 class="main_tit container">PHOTO</h2>
+			<ul class="img_list">
+				<li>
+					<div class="hover_box">
+						<strong>인턴</strong>
+						<span>나도 해봤다 호텔인턴</span>
+					</div>
+				</li>
+				<li>
+					<div class="hover_box">
+						<strong>회사생활</strong>
+						<span>즐거운 추억</span>
+					</div>
+				</li>
+				<li>
+					<div class="hover_box">
+						<strong>연우?</strong>
+						<span>나다.</span>
+					</div>
+				</li>
+				<li>
+					<div class="hover_box">
+						<strong>참치 먹방</strong>
+						<span>회는 맛잇서</span>
+					</div>
+				</li>
+				<li>
+					<div class="hover_box">
+						<strong>봄</strong>
+						<span>꽃은 죄 없어.</span>
+					</div>
+				</li>
+				<li>
+					<div class="hover_box">
+						<strong>한강</strong>
+						<span>은 사랑.</span>
+					</div>
+				</li>
+				<li>
+					<div class="hover_box">
+						<strong>술</strong>
+						<span>못 참아.</span>
+					</div>
+				</li>
+				<li>
+					<div class="hover_box">
+						<strong>인생</strong>
+						<span>멋지다!</span>
+					</div>
+				</li>
+			</ul>
+		</section>
+		<section id="sec03" class="blog">
+			<h2 class="second_tit container">SNS</h2>
+			<ul class="second_list">
+				<li>
+						<a href="https://m.blog.naver.com/yearwoo-" target="_blank">BLOG</a>
+				</li>
+				<li>
+						<a href="https://youtu.be/INipgMZoyGA?si=yYpAcx4j1n67ht-v" target="_blank">YOUTUBE</a>
+				</li>
+			</ul>
+		</section>
+		<section id="sec04" class="contact">
+			<h2 class="third_tit container">CONTACT</h2>
+			<div class="name">
+				<p>name</p>
+				<p>Email Address</p>
+			</div>
+		</section>
+	</main>
+	<footer></footer>
+</body>
+
 </html>

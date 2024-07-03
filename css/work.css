@@ -1,0 +1,70 @@
+.work{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-bottom: 80px;
+    border-bottom: 2px solid silver;
+}
+
+.work h2{
+    margin-bottom: 50px;
+    color: var(--lightblue);
+    font-size: var(--font--size--large);
+    font-weight: bold;
+}
+
+.work .img_list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.work .img_list li{
+    width: 25%;
+    padding-top: 25%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.work .img_list li:nth-child(1){background-image: url('../image/a1.jpg');}
+.work .img_list li:nth-child(2){background-image: url('../image/a2.jpg');}
+.work .img_list li:nth-child(3){background-image: url('../image/a3.jpg');}
+.work .img_list li:nth-child(4){background-image: url('../image/a4.jpg');}
+.work .img_list li:nth-child(5){background-image: url('../image/blossom.jpg');}
+.work .img_list li:nth-child(6){background-image: url('../image/a5.jpg');}
+.work .img_list li:nth-child(7){background-image: url('../image/a6.jpg');}
+.work .img_list li:nth-child(8){background-image: url('../image/a7.jpg');}
+
+.work .img_list li::before{
+    content:"";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: pink;
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+.work .img_list li:hover::before{
+    opacity: 0.8;
+}
+
+.work .img_list li .hover_box{
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+.work .img_list li:hover .hover_box{
+    opacity: 1;
+}
+
+.work .img_list li .hover_box strong{
+    display: block;
+    margin-bottom: 5px;
+    font-size: var(--font--size--medium);
+}

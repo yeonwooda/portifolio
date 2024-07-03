@@ -1,0 +1,39 @@
+header {
+  display: flex;
+  padding: 20px 60px; /* 위 오른쪽 아래 왼쪽*/
+}
+
+header h1{
+  margin-right: auto;
+}
+
+header h1 a {
+  font-size: var(--font--size--medium);
+  font-weight: bold;
+  color: var(--yarrow);
+}
+
+header nav {
+  color: var(--yarrow);
+}
+
+header nav > ul {
+  display: flex;
+  gap: 0px 20px; /*gap은 flex에 여백을 정렬하는 요소 flex가 쓰여지는 곳에서 사용, 글자 간의 간격*/
+  font-size: var(--font--size--small);
+}
+
+header nav > ul > li > a{
+  font-size: var(--font--size--small);
+  color: var(--yarrow);
+}
+
+.container{
+  max-width: 1230px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.main_tit{
+  font-size: var(--font--size--large);
+}

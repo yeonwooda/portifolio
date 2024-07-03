@@ -1,0 +1,55 @@
+.main_bg{
+  background: url('../image/m.jpg') no-repeat center / cover; /* 이미지 반복 x, 사진 가득 채우기*/
+  height: 600px;
+}
+
+.weare {
+  padding: 100px 15px;
+  border-bottom: 2px solid #ddd;
+}
+
+.weare > .top_box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.weare > .top_box h2{
+  width: 30%;
+  padding-right: 20px;
+  color: var(--lightblue);
+  font-weight: bold;
+}
+
+.weare > .top_box p{
+  width: 70%;
+  line-height: 2; /* 텍스트 자간*/
+  font-size: var(--font--size--small);
+  
+}
+
+.weare > .btm_list{
+  display: flex;
+  flex-wrap: wrap;
+  gap:5%;
+  margin-top: 70px;
+  
+}
+
+.weare > .btm_list li{
+  width: 21.25%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.weare > .btm_list li strong{
+  display: block;
+  margin: 20px;
+  font-weight: 550;
+  font-size: var(--font--size--medium);
+}
+
+.weare > .btm_list li p{
+  display: block;
+  font-weight: 400;
+  font-size: var(--font--size--small);
+}
