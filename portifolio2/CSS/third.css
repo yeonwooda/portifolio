@@ -1,0 +1,35 @@
+.third {
+  width: 100vw;
+}
+
+.third_content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.imgContent {
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+  padding-top: 40px;
+}
+
+.imgBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20%;
+  object-fit: cover;
+}
+
+.imgBox > img {
+  display: flex;
+  width: 100%;
+  height: 300px;
+}
+
+.imgBox > a {
+  margin-top: 20px;
+}

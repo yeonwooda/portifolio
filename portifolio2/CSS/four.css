@@ -1,0 +1,22 @@
+.four {
+  width: 100vw;
+}
+
+.map {
+  width: 100%;
+  margin-top: 100px;
+}
+.map > iframe {
+  width: 100%;
+  height: 400px;
+  object-fit: contain;
+}
+
+.map > p {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  font-size: var(--font--size--base);
+  font-weight: bold;
+  color: var(--lightblue);
+}

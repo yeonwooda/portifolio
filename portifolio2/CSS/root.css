@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "Pretendard-Regular";
+  src: url("https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+    format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+  font-family: "Pretendard-Regular";
+}
+
+:root {
+  --font--size--xl: 30px;
+  --font--size--lg: 25px;
+  --font--size--base: 15px;
+  --font--size--xs: 10px;
+
+  --yarrow: #f0c22a;
+  --lightblue: #29dca9;
+}
+
+a {
+  color: var(--yarrow);
+}
+
+h2 {
+  color: var(--lightblue);
+}

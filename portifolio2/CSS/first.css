@@ -1,0 +1,52 @@
+main {
+  width: 100vw;
+}
+.img_bg {
+  width: 100vw;
+  height: 60vh;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.img_bg > img {
+  width: 100%;
+  height: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  object-fit: contain;
+}
+
+.first {
+  width: 100vw;
+}
+
+.content {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 70px;
+}
+
+.work {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+
+  padding-top: 40px;
+  position: relative;
+  left: 200px;
+}
+
+h2 {
+  font-size: var(--font--size--lg);
+}
+@media screen and (max-width: 768px) {
+  h2 {
+    display: flex;
+    justify-content: center;
+  }
+}
